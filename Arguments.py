@@ -1,0 +1,35 @@
+def Details(name,gender,age):
+    print(name)
+    print(gender)
+    print(age)
+Details('user','Male',36)
+print('-------------------------')
+Details('Male',36,'user')
+print('-------------------------')
+def Details(n,g,a):
+    print(n)
+    print(g)
+    print(a)
+Details(n='user2',g='Male',a=100)
+print('-------------------------')
+def Details(a,n,g):
+    print(n)
+    print(g)
+    print(a)
+Details(n='user2',a=100,g='Male')
+print('-------------------------')
+def Element(a,b=24,c=100):
+    print(a)
+    print(b)
+    print(c)
+Element(10,20)
+Element(1,2,3)
+Element(5)
+
+print('-------------------------')
+def Elements(* args):
+    print(args)
+Elements(4,5,6)
+Elements()
+Elements(22,33,44,11,66,55,7)
+Elements(6)
